@@ -1,0 +1,120 @@
+body
+{
+    background-color:rgb(216, 210, 210);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+p 
+{
+    text-align:center;
+}
+
+h1
+{
+    text-align: center;
+    font-family:Times;
+}
+h2
+{
+    text-align:center;
+    font-family:Times;
+}
+h3
+{
+    text-align:center;
+    font-family:Times;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color:rgb(63, 179, 233);
+    align-items: center;
+    padding: 10px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+.logo img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+nav a 
+{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover
+{
+    color: white;
+}
+
+@media (max-wid:700px)
+{
+    header
+    {
+        flex-direction:column;
+    }
+    nav
+    {
+        padding:10px 0px;
+    }
+}
+
+footer
+{
+    background-color:#0a141d;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.pie-pagina .grupo-1
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box h2
+{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p
+{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a
+{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center
+}
