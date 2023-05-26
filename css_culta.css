@@ -1,13 +1,14 @@
 body
 {
     background-color:rgb(216, 210, 210);
-    font-family: sans-serif;
+    font-family: Arial;
     margin: 0;
 }
 
 p 
 {
     text-align:center;
+    font-family: Arial;
 }
 
 h1
@@ -28,7 +29,6 @@ h3
 
 header
 {
-    display: flex;
     justify-content: space-between;
     min-height: 70px;
     background-color:rgb(63, 179, 233);
@@ -86,7 +86,7 @@ footer
 .pie-pagina .grupo-1
 {
     width: 100%;
-    max-width: 1200px;
+    max-width: 600px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -116,5 +116,5 @@ footer
     color: #fff;
     margin-right: 10px;
     background-color: #0d2033;
-    text-align: center
+    text-align: center;
 }
